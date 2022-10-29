@@ -6,6 +6,10 @@ body {
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 a {
   color: inherit;
   text-decoration: none;
@@ -13,6 +17,49 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.section {
+}
+
+.video-element {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.shop-one {
+  position: absolute;
+  top: 180px;
+  left: -200px;
+  z-index: 2;
+}
+
+.shop-two {
+  position: absolute;
+  top: 0px;
+  left: 1700px;
+  z-index: 1;
+}
+
+.shop-three {
+  position: absolute;
+  bottom: -138px;
+  left: 280px;
+}
+
+.iphone-one {
+  position: absolute;
+  right: 180px;
+  top: -30px;
+  z-index: 0;
+}
+
+.iphone-two {
+  position: absolute;
+  right: 800px;
+  top: 200px;
+  z-index: 0;
 }
 
 @media (prefers-color-scheme: dark) {
