@@ -127,12 +127,7 @@ const PageFour = () => (
 
     <h2 className="misc-text">Bots, parsers, data pipelines</h2>
     <div className="misc">
-      <Image
-        src="/miscpage.png"
-        alt="Chat bots"
-        width={1796 / 1.2}
-        height={1035 / 1.2}
-      />
+      <Image src="/miscpage.png" alt="Chat bots" width={1796} height={1035} />
     </div>
   </div>
 );
