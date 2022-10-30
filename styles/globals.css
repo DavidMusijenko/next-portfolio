@@ -95,8 +95,9 @@ a {
 
 .misc {
   position: absolute;
-  right: 30%;
+  right: 25%;
   bottom: 0%;
+  min-height: 400px;
 }
 
 .misc-text {
@@ -104,7 +105,7 @@ a {
   left: 50%;
   top: 20%;
   transform: translate(-50%, -50%);
-  font-size: 5.5rem;
+  font-size: 4rem;
 }
 
 .lets {
