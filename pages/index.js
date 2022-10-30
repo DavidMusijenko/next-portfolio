@@ -61,8 +61,6 @@ const PageOne = () => (
 
 const PageTwo = () => (
   <div className="section">
-    <Navbar />
-
     <div className="clean">
       <h2 className="clean-text">*even without any UI libraries</h2>
       <Image src="/clean.png" alt="Clean UI" width={1000} height={1000} />
@@ -71,8 +69,8 @@ const PageTwo = () => (
       <Image
         src="/shop1.png"
         alt="e-commerce store"
-        width={2560}
-        height={1440}
+        width={2560 * 1.4}
+        height={1440 * 1.4}
       />
     </div>
 
@@ -116,8 +114,8 @@ const PageThree = () => (
       <Image
         src="/iphones.png"
         alt="iPhone app with Uber-clone"
-        width={1154}
-        height={1324}
+        width={1154 / 1.5}
+        height={1324 / 1.5}
       />
     </div>
   </div>
@@ -129,7 +127,12 @@ const PageFour = () => (
 
     <h2 className="misc-text">Bots, parsers, data pipelines</h2>
     <div className="misc">
-      <Image src="/miscpage.png" alt="Chat bots" width={1796} height={1035} />
+      <Image
+        src="/miscpage.png"
+        alt="Chat bots"
+        width={1796 / 2}
+        height={1035 / 2}
+      />
     </div>
   </div>
 );
