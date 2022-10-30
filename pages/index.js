@@ -4,9 +4,6 @@ import ReactFullpage from "@fullpage/react-fullpage";
 import Head from "next/head";
 import mainPic from "../public/mainPic.png";
 import Image from "next/image";
-import "react-slideshow-image/dist/styles.css";
-import { Slide } from "react-slideshow-image";
-import "react-slideshow-image/dist/styles.css";
 
 // NOTE: if using fullpage extensions/plugins put them here and pass it as props.
 const pluginWrapper = () => {};
@@ -65,7 +62,11 @@ const PageOne = () => (
 const PageTwo = () => (
   <div className="section">
     <Navbar />
-    <h1>Web</h1>
+
+    <div className="clean">
+      <h2 className="clean-text">*even without any UI libraries</h2>
+      <Image src="/clean.png" alt="Clean UI" width={1000} height={1000} />
+    </div>
     <div className="shop-one">
       <Image
         src="/shop1.png"
@@ -90,13 +91,42 @@ const PageTwo = () => (
         height={650}
       />
     </div>
+    <TechStack />
+  </div>
+);
+
+const TechStack = () => (
+  <div className="collapse">
+    <input type="checkbox" className="peer" />
+    <div className="collapse-title bg-[#CA67FB] text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+      What tech stack do you use?
+    </div>
+    <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+      <p>
+        <br />
+        React, Next.js, Redux, GraphQL, SQL, Jest, Node.js, Express, Vercel,
+        Tailwind CSS, DaisyUI. <br /> <br />
+        Check{" "}
+        <a
+          href="https://www.linkedin.com/in/david-musijenko//"
+          class="text-blue-300"
+        >
+          LinkedIn
+        </a>{" "}
+        for updates.
+      </p>
+    </div>
   </div>
 );
 
 const PageThree = () => (
   <div className="section">
     <Navbar />
-    <h1>Mobile</h1>
+
+    <h2 className="mobile">
+      Apps for iOS and Android <br /> via React Native
+    </h2>
+
     <div className="iphone-two">
       <Image
         src="/iphoneTwo.png"
@@ -119,19 +149,40 @@ const PageThree = () => (
 const PageFour = () => (
   <div className="section">
     <Navbar />
-    <h1>Misc</h1>
+
+    <h2 className="misc-text">Bots, parsers, data pipelines</h2>
+    <div className="parser">
+      <Image src="/parser.png" alt="Data parsers" width={1200} height={500} />
+    </div>
+    <div className="pipelines">
+      <Image
+        src="/piping.png"
+        alt="Custom data pipelines"
+        width={1200}
+        height={900}
+      />
+    </div>
+
+    <div className="prime">
+      <Image src="/prime.png" alt="Chat bots" width={1200} height={800} />
+    </div>
   </div>
 );
 
 const PageFive = () => (
   <div className="section">
     <Navbar />
-    <h2>Let's build something cool</h2>
-    <h3>david.musijenko@gmail.com</h3>
+    <h2 className="lets">Let&apos;s build something cool</h2>
+    <h3 className="email">
+      <a href="mailto:david.musijenko@gmail.com">david.musijenko@gmail.com</a>
+    </h3>
+    <h4 className="vercel">
+      <a href="https:/onemanarmy.vercel.app">onemanarmy.vercel.app</a>
+    </h4>
   </div>
 );
 
-/*
+/* email form with DaisyUI looks ugly
 
 const PageFive = () => (
   <div className="section">

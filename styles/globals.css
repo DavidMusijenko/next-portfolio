@@ -1,9 +1,15 @@
+@font-face {
+  font-family: "Medium"; /*Can be any text*/
+  src: local("GilmerMedium"),
+    url("/style/Gilmer-Font/GilmerMedium.otf") format("truetype");
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Gilmer, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 @tailwind base;
@@ -48,6 +54,34 @@ a {
   left: 280px;
 }
 
+.collapse {
+  position: absolute;
+  z-index: 3;
+  bottom: 0;
+  right: 0;
+  width: 370px;
+  font-size: 1.5rem;
+}
+
+.clean {
+  z-index: 10;
+  position: absolute;
+  left: 50%;
+  top: 55%;
+  transform: translate(-50%, -50%);
+}
+
+.clean-text {
+  z-index: 10;
+  position: absolute;
+  left: 88%;
+  top: 110%;
+  width: 100%;
+  transform: translate(-50%, -50%);
+  font-size: 3rem;
+  color: black;
+}
+
 .iphone-one {
   position: absolute;
   right: 180px;
@@ -60,6 +94,69 @@ a {
   right: 800px;
   top: 200px;
   z-index: 0;
+}
+
+.mobile {
+  position: absolute;
+  left: 30%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 7rem;
+  text-align: end;
+  font-family: Gilmer;
+  z-index: 3;
+  background-color: white;
+  opacity: 0.8;
+  color: #ca67fb;
+  padding: 30px;
+}
+
+.prime {
+  position: absolute;
+  left: 15%;
+  bottom: 0%;
+}
+.parser {
+  position: absolute;
+  left: 35%;
+  bottom: 15%;
+}
+.pipelines {
+  position: absolute;
+  left: 45%;
+  bottom: 0%;
+}
+
+.misc-text {
+  position: absolute;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  font-size: 5.5rem;
+}
+
+.lets {
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 7rem;
+}
+
+.email {
+  position: absolute;
+  left: 50%;
+  bottom: 15%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
+}
+
+.vercel {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translate(-50%, -50%);
+  font-size: 2.5rem;
 }
 
 @media (prefers-color-scheme: dark) {
