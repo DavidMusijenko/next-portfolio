@@ -71,26 +71,11 @@ const PageTwo = () => (
       <Image
         src="/shop1.png"
         alt="e-commerce store"
-        width={1200}
-        height={600}
+        width={2560}
+        height={1440}
       />
     </div>
-    <div className="shop-two">
-      <Image
-        src="/shop2.png"
-        alt="e-commerce store"
-        width={1200}
-        height={600}
-      />
-    </div>
-    <div className="shop-three">
-      <Image
-        src="/shop3.png"
-        alt="e-commerce store"
-        width={1800}
-        height={400}
-      />
-    </div>
+
     <TechStack />
   </div>
 );
