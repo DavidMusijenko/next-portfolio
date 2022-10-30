@@ -76,13 +76,6 @@ a {
   z-index: 0;
 }
 
-.iphone-two {
-  position: absolute;
-  right: 800px;
-  top: 200px;
-  z-index: 0;
-}
-
 .mobile {
   position: absolute;
   left: 30%;

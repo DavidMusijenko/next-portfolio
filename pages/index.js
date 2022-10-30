@@ -112,20 +112,12 @@ const PageThree = () => (
       Apps for iOS and Android <br /> via React Native
     </h2>
 
-    <div className="iphone-two">
-      <Image
-        src="/iphoneTwo.png"
-        alt="iPhone app Screen 2"
-        width={1125 / 4}
-        height={2436 / 4}
-      />
-    </div>
     <div className="iphone-one">
       <Image
-        src="/iphoneOne.png"
-        alt="iPhone app Screen 1"
-        width={1125 / 3}
-        height={2436 / 3}
+        src="/iphones.png"
+        alt="iPhone app with Uber-clone"
+        width={1154}
+        height={1324}
       />
     </div>
   </div>
@@ -136,20 +128,8 @@ const PageFour = () => (
     <Navbar />
 
     <h2 className="misc-text">Bots, parsers, data pipelines</h2>
-    <div className="parser">
-      <Image src="/parser.png" alt="Data parsers" width={600} height={250} />
-    </div>
-    <div className="pipelines">
-      <Image
-        src="/piping.png"
-        alt="Custom data pipelines"
-        width={600}
-        height={450}
-      />
-    </div>
-
-    <div className="prime">
-      <Image src="/prime.png" alt="Chat bots" width={600} height={400} />
+    <div className="misc">
+      <Image src="/miscpage.png" alt="Chat bots" width={1796} height={1035} />
     </div>
   </div>
 );
