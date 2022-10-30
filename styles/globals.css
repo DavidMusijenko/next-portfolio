@@ -32,6 +32,11 @@ a {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: 10;
+}
+
+.pageTwo {
+  z-index: 9;
 }
 
 .shop-one {
@@ -71,11 +76,15 @@ a {
   font-size: 3rem;
   color: black;
 }
+
+.pageThree {
+  z-index: 8;
+}
+
 .iphone-one {
   position: absolute;
   right: 180px;
   bottom: 5%;
-  margin-top: 10px;
 }
 
 .mobile {
@@ -93,6 +102,10 @@ a {
   padding: 20px;
 }
 
+.pageFour {
+  z-index: 7;
+}
+
 .misc {
   position: absolute;
   left: 50%;
@@ -106,6 +119,10 @@ a {
   top: 30%;
   transform: translate(-50%, -50%);
   font-size: 4rem;
+}
+
+.pageFive {
+  z-index: 6;
 }
 
 .lets {

@@ -61,17 +61,19 @@ const PageOne = () => (
 
 const PageTwo = () => (
   <div className="section">
-    <div className="clean">
-      <h2 className="clean-text">*even without any UI libraries</h2>
-      <Image src="/clean.png" alt="Clean UI" width={1000} height={1000} />
-    </div>
-    <div className="shop-one">
-      <Image
-        src="/shop1.png"
-        alt="e-commerce store"
-        width={2560}
-        height={1440}
-      />
+    <div className="pageTwo">
+      <div className="clean">
+        <h2 className="clean-text">*even without any UI libraries</h2>
+        <Image src="/clean.png" alt="Clean UI" width={1000} height={1000} />
+      </div>
+      <div className="shop-one">
+        <Image
+          src="/shop1.png"
+          alt="e-commerce store"
+          width={2560}
+          height={1440}
+        />
+      </div>
     </div>
 
     <TechStack />
@@ -104,44 +106,50 @@ const TechStack = () => (
 
 const PageThree = () => (
   <div className="section">
-    <Navbar />
+    <div className="pageThree">
+      <Navbar />
 
-    <h2 className="mobile">
-      Apps for iOS and Android <br /> via React Native
-    </h2>
+      <h2 className="mobile">
+        Apps for iOS and Android <br /> via React Native
+      </h2>
 
-    <div className="iphone-one">
-      <Image
-        src="/iphones.png"
-        alt="iPhone app with Uber-clone"
-        width={1154 / 1.5}
-        height={1324 / 1.5}
-      />
+      <div className="iphone-one">
+        <Image
+          src="/iphones.png"
+          alt="iPhone app with Uber-clone"
+          width={1154 / 1.5}
+          height={1324 / 1.5}
+        />
+      </div>
     </div>
   </div>
 );
 
 const PageFour = () => (
   <div className="section">
-    <Navbar />
+    <div className="pageFour">
+      <Navbar />
 
-    <h2 className="misc-text">Bots, parsers, data pipelines</h2>
-    <div className="misc">
-      <Image src="/miscpage.png" alt="Chat bots" width={1796} height={1035} />
+      <h2 className="misc-text">Bots, parsers, data pipelines</h2>
+      <div className="misc">
+        <Image src="/miscpage.png" alt="Chat bots" width={1796} height={1035} />
+      </div>
     </div>
   </div>
 );
 
 const PageFive = () => (
   <div className="section">
-    <Navbar />
-    <h2 className="lets">Let&apos;s build something cool</h2>
-    <h3 className="email">
-      <a href="mailto:david.musijenko@gmail.com">david.musijenko@gmail.com</a>
-    </h3>
-    <h4 className="vercel">
-      <a href="https:/onemanarmy.vercel.app">onemanarmy.vercel.app</a>
-    </h4>
+    <div className="pageFive">
+      <Navbar />
+      <h2 className="lets">Let&apos;s build something cool</h2>
+      <h3 className="email">
+        <a href="mailto:david.musijenko@gmail.com">david.musijenko@gmail.com</a>
+      </h3>
+      <h4 className="vercel">
+        <a href="https:/onemanarmy.vercel.app">onemanarmy.vercel.app</a>
+      </h4>
+    </div>
   </div>
 );
 
