@@ -91,20 +91,11 @@ a {
   padding: 20px;
 }
 
-.prime {
+.misc {
   position: absolute;
-  left: 15%;
+  left: 50%;
   bottom: 0%;
-}
-.parser {
-  position: absolute;
-  left: 35%;
-  bottom: 15%;
-}
-.pipelines {
-  position: absolute;
-  left: 45%;
-  bottom: 0%;
+  transform: translate(-50%, -50%);
 }
 
 .misc-text {
