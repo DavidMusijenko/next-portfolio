@@ -100,14 +100,14 @@ a {
   left: 30%;
   top: 50%;
   transform: translate(-50%, -50%);
-  font-size: 7rem;
+  font-size: 4rem;
   text-align: end;
   font-family: Gilmer;
   z-index: 3;
   background-color: white;
   opacity: 0.8;
   color: #ca67fb;
-  padding: 30px;
+  padding: 20px;
 }
 
 .prime {
@@ -139,7 +139,7 @@ a {
   left: 50%;
   top: 40%;
   transform: translate(-50%, -50%);
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 .email {
