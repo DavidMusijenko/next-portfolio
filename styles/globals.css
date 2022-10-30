@@ -72,7 +72,7 @@ a {
 .iphone-one {
   position: absolute;
   right: 180px;
-  top: 0px;
+  bottom: 20%;
   z-index: 0;
 }
 
@@ -94,7 +94,7 @@ a {
 .misc {
   position: absolute;
   left: 50%;
-  bottom: 0%;
+  bottom: -17%;
   transform: translate(-50%, -50%);
 }
 

@@ -69,8 +69,8 @@ const PageTwo = () => (
       <Image
         src="/shop1.png"
         alt="e-commerce store"
-        width={2560 / 1.2}
-        height={1440 / 1.2}
+        width={2560 / 1.5}
+        height={1440 / 1.5}
       />
     </div>
 
@@ -130,8 +130,8 @@ const PageFour = () => (
       <Image
         src="/miscpage.png"
         alt="Chat bots"
-        width={1796 / 2}
-        height={1035 / 2}
+        width={1796 / 1.5}
+        height={1035 / 1.5}
       />
     </div>
   </div>
