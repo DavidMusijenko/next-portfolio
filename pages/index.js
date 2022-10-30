@@ -79,7 +79,7 @@ const PageTwo = () => (
       <Image
         src="/shop2.png"
         alt="e-commerce store"
-        width={1000}
+        width={1200}
         height={600}
       />
     </div>

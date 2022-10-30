@@ -84,7 +84,7 @@ a {
 .iphone-one {
   position: absolute;
   right: 180px;
-  top: -30px;
+  top: 0px;
   z-index: 0;
 }
 
