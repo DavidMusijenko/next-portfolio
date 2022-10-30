@@ -68,16 +68,26 @@ const PageTwo = () => (
       <Image src="/clean.png" alt="Clean UI" width={1000} height={1000} />
     </div>
     <div className="shop-one">
-      <Image src="/shop1.png" alt="e-commerce store" width={900} height={400} />
+      <Image
+        src="/shop1.png"
+        alt="e-commerce store"
+        width={1200}
+        height={600}
+      />
     </div>
     <div className="shop-two">
-      <Image src="/shop2.png" alt="e-commerce store" width={700} height={400} />
+      <Image
+        src="/shop2.png"
+        alt="e-commerce store"
+        width={1000}
+        height={600}
+      />
     </div>
     <div className="shop-three">
       <Image
         src="/shop3.png"
         alt="e-commerce store"
-        width={1200}
+        width={1800}
         height={400}
       />
     </div>
