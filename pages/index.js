@@ -130,8 +130,8 @@ const PageFour = () => (
       <Image
         src="/miscpage.png"
         alt="Chat bots"
-        width={1796 / 1.5}
-        height={1035 / 1.5}
+        width={1796 / 1.2}
+        height={1035 / 1.2}
       />
     </div>
   </div>
