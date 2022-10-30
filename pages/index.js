@@ -68,27 +68,17 @@ const PageTwo = () => (
       <Image src="/clean.png" alt="Clean UI" width={1000} height={1000} />
     </div>
     <div className="shop-one">
-      <Image
-        src="/shop1.png"
-        alt="e-commerce store"
-        width={1800}
-        height={800}
-      />
+      <Image src="/shop1.png" alt="e-commerce store" width={900} height={400} />
     </div>
     <div className="shop-two">
-      <Image
-        src="/shop2.png"
-        alt="e-commerce store"
-        width={1400}
-        height={800}
-      />
+      <Image src="/shop2.png" alt="e-commerce store" width={700} height={400} />
     </div>
     <div className="shop-three">
       <Image
         src="/shop3.png"
         alt="e-commerce store"
-        width={2500}
-        height={650}
+        width={1200}
+        height={400}
       />
     </div>
     <TechStack />
@@ -131,16 +121,16 @@ const PageThree = () => (
       <Image
         src="/iphoneTwo.png"
         alt="iPhone app Screen 2"
-        width={1125 / 2}
-        height={2436 / 2}
+        width={1125 / 4}
+        height={2436 / 4}
       />
     </div>
     <div className="iphone-one">
       <Image
         src="/iphoneOne.png"
         alt="iPhone app Screen 1"
-        width={1125 / 1.5}
-        height={2436 / 1.5}
+        width={1125 / 3}
+        height={2436 / 3}
       />
     </div>
   </div>
@@ -152,19 +142,19 @@ const PageFour = () => (
 
     <h2 className="misc-text">Bots, parsers, data pipelines</h2>
     <div className="parser">
-      <Image src="/parser.png" alt="Data parsers" width={1200} height={500} />
+      <Image src="/parser.png" alt="Data parsers" width={600} height={250} />
     </div>
     <div className="pipelines">
       <Image
         src="/piping.png"
         alt="Custom data pipelines"
-        width={1200}
-        height={900}
+        width={600}
+        height={450}
       />
     </div>
 
     <div className="prime">
-      <Image src="/prime.png" alt="Chat bots" width={1200} height={800} />
+      <Image src="/prime.png" alt="Chat bots" width={600} height={400} />
     </div>
   </div>
 );
@@ -256,7 +246,6 @@ class App extends React.Component {
         </Head>
         <ReactFullpage
           licenseKey={"gplv3-license"}
-          navigation
           pluginWrapper={pluginWrapper}
           keyboardScrolling={true}
           anchors={["Hello", "Web", "Mobile", "Misc", "Contact"]}
