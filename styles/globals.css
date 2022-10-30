@@ -95,9 +95,8 @@ a {
 
 .misc {
   position: absolute;
-  right: 25%;
+  right: 10%;
   bottom: 0%;
-  min-height: 400px;
 }
 
 .misc-text {
