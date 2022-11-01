@@ -11,8 +11,8 @@ const pluginWrapper = () => {};
 const originalColors = ["#CA67FB", "white", "#CA67FB", "#d88aff", "#CA67FB"];
 
 const Navbar = () => (
-  <div class="absolute top-10 right-14 z-10">
-    <div class="md:w-3 md:h-3 md:mt-5 w-9 h-9 mt-10">
+  <div class="absolute top-1 right-5 z-10">
+    <div class=" w-9 h-9 mt-10">
       <a href="#Contact">
         <svg
           xmlns="http://www.w3.org/2000/svg"
