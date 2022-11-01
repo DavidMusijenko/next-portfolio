@@ -47,7 +47,7 @@ a {
 
 .collapse {
   position: absolute;
-  z-index: 3;
+  z-index: 10;
   bottom: 0;
   right: 0;
   width: 400px;
@@ -107,6 +107,7 @@ a {
   top: 30%;
   transform: translate(-50%, -50%);
   font-size: 4rem;
+  z-index: 3;
 }
 
 .lets {
@@ -148,6 +149,7 @@ a {
   }
   .clean-text {
     font-size: 1rem;
+    margin-top: 50px;
   }
   .mobile {
     font-size: 2rem;
@@ -155,5 +157,17 @@ a {
   .misc {
     width: 820px;
     height: auto;
+  }
+  .lets {
+    font-size: 2rem;
+  }
+  .email {
+    font-size: 1rem;
+  }
+  .vercel {
+    font-size: 1rem;
+  }
+  .collapse {
+    width: 100%;
   }
 }
