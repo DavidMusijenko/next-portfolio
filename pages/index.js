@@ -12,7 +12,7 @@ const originalColors = ["#CA67FB", "white", "#CA67FB", "#d88aff", "#CA67FB"];
 
 const Navbar = () => (
   <div class="absolute top-10 right-14 z-10">
-    <div class="w-9 h-9 mt-10">
+    <div class="md:w-3 md:h-3 md:mt-5 w-9 h-9 mt-10">
       <a href="#Contact">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -46,6 +46,7 @@ const Navbar = () => (
 const PageOne = () => (
   <div className="section">
     <Navbar />
+
     <video
       className="video-element"
       poster="/mainPic.png"
@@ -61,19 +62,17 @@ const PageOne = () => (
 
 const PageTwo = () => (
   <div className="section">
-    <div className="pageTwo">
-      <div className="clean">
-        <h2 className="clean-text">*even without any UI libraries</h2>
-        <Image src="/clean.png" alt="Clean UI" width={1000} height={1000} />
-      </div>
-      <div className="shop-one">
-        <Image
-          src="/shop1.png"
-          alt="e-commerce store"
-          width={2560}
-          height={1440}
-        />
-      </div>
+    <div className="clean">
+      <h2 className="clean-text">*even without any UI libraries</h2>
+      <Image src="/clean.png" alt="Clean UI" width={1000} height={1000} />
+    </div>
+    <div className="shop-one">
+      <Image
+        src="/shop1.png"
+        alt="e-commerce store"
+        width={2560}
+        height={1440}
+      />
     </div>
 
     <TechStack />
@@ -106,50 +105,44 @@ const TechStack = () => (
 
 const PageThree = () => (
   <div className="section">
-    <div className="pageThree">
-      <Navbar />
+    <Navbar />
 
-      <h2 className="mobile">
-        Apps for iOS and Android <br /> via React Native
-      </h2>
+    <h2 className="mobile">
+      Apps for iOS and Android <br /> via React Native
+    </h2>
 
-      <div className="iphone-one">
-        <Image
-          src="/iphones.png"
-          alt="iPhone app with Uber-clone"
-          width={1154 / 1.5}
-          height={1324 / 1.5}
-        />
-      </div>
+    <div className="iphone-one">
+      <Image
+        src="/iphones.png"
+        alt="iPhone app with Uber-clone"
+        width={1154 / 1.5}
+        height={1324 / 1.5}
+      />
     </div>
   </div>
 );
 
 const PageFour = () => (
   <div className="section">
-    <div className="pageFour">
-      <Navbar />
+    <Navbar />
 
-      <h2 className="misc-text">Bots, parsers, data pipelines</h2>
-      <div className="misc">
-        <Image src="/miscpage.png" alt="Chat bots" width={1796} height={1035} />
-      </div>
+    <h2 className="misc-text">Bots, parsers, data pipelines</h2>
+    <div className="misc">
+      <Image src="/miscpage.png" alt="Chat bots" width={1796} height={1035} />
     </div>
   </div>
 );
 
 const PageFive = () => (
   <div className="section">
-    <div className="pageFive">
-      <Navbar />
-      <h2 className="lets">Let&apos;s build something cool</h2>
-      <h3 className="email">
-        <a href="mailto:david.musijenko@gmail.com">david.musijenko@gmail.com</a>
-      </h3>
-      <h4 className="vercel">
-        <a href="https:/onemanarmy.vercel.app">onemanarmy.vercel.app</a>
-      </h4>
-    </div>
+    <Navbar />
+    <h2 className="lets">Let&apos;s build something cool</h2>
+    <h3 className="email">
+      <a href="mailto:david.musijenko@gmail.com">david.musijenko@gmail.com</a>
+    </h3>
+    <h4 className="vercel">
+      <a href="https:/onemanarmy.vercel.app">onemanarmy.vercel.app</a>
+    </h4>
   </div>
 );
 
