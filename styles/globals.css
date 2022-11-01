@@ -146,4 +146,14 @@ a {
 @media only screen and (max-device-width: 812px) {
   .icons {
   }
+  .clean-text {
+    font-size: 1rem;
+  }
+  .mobile {
+    font-size: 2rem;
+  }
+  .misc {
+    width: 820px;
+    height: auto;
+  }
 }
