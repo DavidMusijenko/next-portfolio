@@ -35,6 +35,13 @@ a {
   z-index: 10;
 }
 
+.navbar {
+  position: absolute;
+  top: 0px;
+  z-index: 10;
+  left: 120px;
+}
+
 .shop-one {
   position: absolute;
   left: 50%;
@@ -159,7 +166,7 @@ a {
     height: auto;
   }
   .lets {
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .email {
     font-size: 1rem;
