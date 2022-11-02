@@ -43,7 +43,7 @@ a {
 }
 
 .shop-one {
-  position: absolute;
+  position: relative;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -178,6 +178,9 @@ a {
   }
   .iphone-one {
     position: relative;
+    left: 0%;
+    top: 0%;
+    transform: translate(-0%, -0%);
 
     width: 390px;
   }
