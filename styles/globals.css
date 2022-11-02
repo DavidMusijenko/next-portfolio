@@ -161,6 +161,7 @@ a {
   .shop-one {
     position: absolute;
     width: 390px;
+    height: 844px;
   }
   .mobile {
     font-size: 2rem;
@@ -168,6 +169,7 @@ a {
 
   .misc {
     width: 390px;
+    height: 844px;
   }
   .misc-text {
     padding-top: 50px;
@@ -181,6 +183,7 @@ a {
     bottom: 0%;
     transform: translate(-50%, 0%);
     width: 390px;
+    height: 844px;
   }
   .email {
     font-size: 1rem;
