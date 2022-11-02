@@ -64,15 +64,19 @@ const PageTwo = () => (
   <div className="section">
     <div className="clean">
       <h2 className="clean-text">*even without any UI libraries</h2>
+
       <Image src="/clean.png" alt="Clean UI" width={1000} height={1000} />
     </div>
     <div className="shop-one">
-      <Image
-        src="/shop1.png"
-        alt="e-commerce store"
-        width={2560}
-        height={1440}
-      />
+      <picture>
+        <source media="(max-width: 812px)" srcset="/shopm.png" />
+        <Image
+          src="/shop1.png"
+          alt="e-commerce store"
+          width={2560}
+          height={1440}
+        />
+      </picture>
     </div>
 
     <TechStack />
