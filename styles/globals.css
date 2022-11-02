@@ -159,13 +159,17 @@ a {
     margin-top: 50px;
   }
   .shop-one {
-    max-height: 100vm;
+    position: absolute;
+    top: 0;
   }
   .mobile {
     font-size: 2rem;
   }
   .misc {
     width: 428px;
+  }
+  .misc-text {
+    color: #ca67fb;
   }
   .lets {
     font-size: 3rem;
@@ -175,6 +179,7 @@ a {
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, 0%);
+    width: 100%;
   }
   .email {
     font-size: 1rem;
