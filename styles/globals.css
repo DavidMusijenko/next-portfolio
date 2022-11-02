@@ -161,14 +161,17 @@ a {
   .shop-one {
     position: relative;
     width: 390px;
+    overflow-y: hidden;
   }
   .mobile {
     font-size: 2rem;
+    overflow-y: hidden;
   }
 
   .misc {
     width: 390px;
     position: relative;
+    overflow-y: hidden;
   }
   .misc-text {
     padding-top: 50px;
@@ -181,7 +184,7 @@ a {
     left: 0%;
     top: 0%;
     transform: translate(-0%, -0%);
-
+    overflow-y: hidden;
     width: 390px;
   }
   .email {
