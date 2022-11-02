@@ -158,11 +158,23 @@ a {
     font-size: 1rem;
     margin-top: 50px;
   }
+  .shop-one {
+    max-height: 100vm;
+  }
   .mobile {
     font-size: 2rem;
   }
+  .misc {
+    width: 428px;
+  }
   .lets {
     font-size: 3rem;
+  }
+  .iphone-one {
+    position: absolute;
+    left: 50%;
+    bottom: 0%;
+    transform: translate(-50%, 0%);
   }
   .email {
     font-size: 1rem;
