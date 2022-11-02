@@ -49,7 +49,9 @@ a {
   transform: translate(-50%, -50%);
   z-index: 0;
   width: 100%;
+  height: 100%;
   display: flex;
+  overflow-y: hidden;
 }
 
 .collapse {
@@ -162,16 +164,17 @@ a {
     position: relative;
     width: 390px;
     overflow-y: hidden;
+    height: 100%;
   }
   .mobile {
     font-size: 2rem;
-    overflow-y: hidden;
   }
 
   .misc {
     width: 390px;
     position: relative;
     overflow-y: hidden;
+    height: 100%;
   }
   .misc-text {
     padding-top: 50px;
@@ -186,6 +189,7 @@ a {
     transform: translate(-0%, -0%);
     overflow-y: hidden;
     width: 390px;
+    height: 100%;
   }
   .email {
     font-size: 1rem;
