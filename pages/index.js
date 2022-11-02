@@ -70,12 +70,7 @@ const PageTwo = () => (
     <div className="shop-one">
       <picture>
         <source media="(max-width: 812px)" srcset="/shopm.png" />
-        <Image
-          src="/shop1.png"
-          alt="e-commerce store"
-          width={2560}
-          height={1440}
-        />
+        <Image src="/shop1.png" alt="e-commerce store" fill />
       </picture>
     </div>
 
@@ -118,12 +113,7 @@ const PageThree = () => (
     <div className="iphone-one">
       <picture>
         <source media="(max-width: 812px)" srcset="/iphonesm.png" />
-        <Image
-          src="/iphones.png"
-          alt="iPhone app with Uber-clone"
-          width={1154 / 1.5}
-          height={1324 / 1.5}
-        />
+        <Image src="/iphones.png" alt="iPhone app with Uber-clone" fill />
       </picture>
     </div>
   </div>
