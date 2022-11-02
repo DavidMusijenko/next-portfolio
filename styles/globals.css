@@ -160,16 +160,17 @@ a {
   }
   .shop-one {
     position: absolute;
-    top: 0;
+    width: 390px;
   }
   .mobile {
     font-size: 2rem;
   }
+
   .misc {
-    width: 428px;
+    width: 390px;
   }
   .misc-text {
-    color: #ca67fb;
+    padding-top: 50px;
   }
   .lets {
     font-size: 3rem;
@@ -179,7 +180,7 @@ a {
     left: 50%;
     bottom: 0%;
     transform: translate(-50%, 0%);
-    width: 100%;
+    width: 390px;
   }
   .email {
     font-size: 1rem;
