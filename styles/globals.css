@@ -159,9 +159,8 @@ a {
     margin-top: 50px;
   }
   .shop-one {
-    position: absolute;
+    position: relative;
     width: 390px;
-    height: 844px;
   }
   .mobile {
     font-size: 2rem;
