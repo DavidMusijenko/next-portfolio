@@ -48,7 +48,7 @@ a {
   top: 50%;
   transform: translate(-50%, -50%);
   z-index: 0;
-  width: 80%;
+  width: 100%;
   display: flex;
 }
 
@@ -162,7 +162,7 @@ a {
     font-size: 2rem;
   }
   .misc {
-    width: 820px;
+    width: 428px;
     height: auto;
   }
   .lets {
