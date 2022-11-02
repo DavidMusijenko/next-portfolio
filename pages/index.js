@@ -116,12 +116,15 @@ const PageThree = () => (
     </h2>
 
     <div className="iphone-one">
-      <Image
-        src="/iphones.png"
-        alt="iPhone app with Uber-clone"
-        width={1154 / 1.5}
-        height={1324 / 1.5}
-      />
+      <picture>
+        <source media="(max-width: 812px)" srcset="/iphonesm.png" />
+        <Image
+          src="/iphones.png"
+          alt="iPhone app with Uber-clone"
+          width={1154 / 1.5}
+          height={1324 / 1.5}
+        />
+      </picture>
     </div>
   </div>
 );
@@ -132,7 +135,10 @@ const PageFour = () => (
 
     <h2 className="misc-text">Bots, parsers, data pipelines</h2>
     <div className="misc">
-      <Image src="/miscpage.png" alt="Chat bots" width={1796} height={1035} />
+      <picture>
+        <source media="(max-width: 812px)" srcset="/miscm.png" />
+        <Image src="/miscpage.png" alt="Chat bots" width={1796} height={1035} />
+      </picture>
     </div>
   </div>
 );
