@@ -46,24 +46,23 @@ const Navbar = () => (
 const PageOne = () => (
   <div className="section">
     <Navbar />
-    <picture>
-      <video
-        className="video-element"
-        poster="/mainPic.png"
-        autoplay
-        loop
-        muted
-        playsinline
-        controls
-      >
-        <source src="/mainVideo.mp4" type="video/mp4" />
-        <source
-          srcset="/mobile.mp4"
-          type="video/mp4"
-          media="(max-width: 440px)"
-        ></source>
-      </video>
-    </picture>
+
+    <video
+      className="video-element"
+      poster="/mainPic.png"
+      autoPlay
+      loop
+      muted
+      playsInline
+      data-keepplaying
+    >
+      <source src="/mainVideo.mp4" type="video/mp4" />
+      <source
+        srcset="/mobile.mp4"
+        type="video/mp4"
+        media="(max-width: 440px)"
+      />
+    </video>
   </div>
 );
 
