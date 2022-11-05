@@ -54,6 +54,7 @@ const PageOne = () => (
       loop
       muted
       playsinline
+      controls
     >
       <source src="/mainVideo.mp4" type="video/mp4" />
       <source
