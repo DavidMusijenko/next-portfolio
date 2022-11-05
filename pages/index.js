@@ -58,9 +58,9 @@ const PageOne = () => (
     >
       <source src="/mainVideo.mp4" type="video/mp4" />
       <source
-        srcset="/mobile.mp4"
+        src="/mobile.mp4"
         type="video/mp4"
-        media="(max-width: 440px)"
+        media="all and (max-width: 440px)"
       />
     </video>
   </div>
