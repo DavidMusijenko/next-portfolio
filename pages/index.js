@@ -60,7 +60,7 @@ const PageOne = () => (
       <source
         src="/mobile.mp4"
         type="video/mp4"
-        media="only screen and (max-width: 812px)"
+        media="only screen and (max-width: 440px)"
       />
     </video>
   </div>
@@ -75,7 +75,7 @@ const PageTwo = () => (
     </div>
     <div className="shop-one">
       <picture>
-        <source media="(max-width: 812px)" srcset="/shopm.png" />
+        <source media="(max-width: 440px)" srcset="/shopm.png" />
         <img src="/shop1.png" alt="e-commerce store" />
       </picture>
     </div>
@@ -118,7 +118,7 @@ const PageThree = () => (
 
     <div className="iphone-one">
       <picture>
-        <source media="(max-width: 812px)" srcset="/iphonesm.png" />
+        <source media="(max-width: 440px)" srcset="/iphonesm.png" />
         <img src="/iphones.png" alt="iPhone app with Uber-clone" />
       </picture>
     </div>
@@ -132,7 +132,7 @@ const PageFour = () => (
     <h2 className="misc-text">Bots, parsers, data pipelines</h2>
     <div className="misc">
       <picture>
-        <source media="(max-width: 812px)" srcset="/miscm.png" />
+        <source media="(max-width: 440px)" srcset="/miscm.png" />
         <img src="/miscpage.png" alt="Chat bots" />
       </picture>
     </div>

@@ -75,17 +75,19 @@ a {
   z-index: 10;
   position: absolute;
   left: 88%;
-  top: 110%;
+  top: 120%;
   width: 100%;
   transform: translate(-50%, -50%);
   font-size: 3rem;
   color: black;
 }
 .iphone-one {
-  position: absolute;
-  right: 180px;
-  bottom: 5%;
+  position: relative;
+  float: right;
+  right: 1%;
   z-index: 0;
+  height: 20%;
+  width: auto;
 }
 
 .mobile {
@@ -105,17 +107,15 @@ a {
 
 .misc {
   position: absolute;
-  left: 50%;
-  bottom: 0%;
-  transform: translate(-50%, 0%);
+  bottom: 0;
 }
 
 .misc-text {
   position: absolute;
   left: 50%;
-  top: 30%;
+  top: 10%;
   transform: translate(-50%, -50%);
-  font-size: 4rem;
+  font-size: 3.5rem;
   z-index: 3;
 }
 
@@ -157,7 +157,7 @@ a {
   .icons {
   }
   .clean-text {
-    font-size: 1rem;
+    font-size: 2rem;
     margin-top: 50px;
   }
   .shop-one {
@@ -167,7 +167,7 @@ a {
     height: 100%;
   }
   .mobile {
-    font-size: 2rem;
+    font-size: 3rem;
   }
 
   .misc {
@@ -177,7 +177,10 @@ a {
     height: 100%;
   }
   .misc-text {
-    padding-top: 50px;
+    padding-top: 900px;
+    font-size: 4em;
+    text-shadow: 5px 5px #ca67fb;
+    line-height: 85%;
   }
   .lets {
     font-size: 3rem;
