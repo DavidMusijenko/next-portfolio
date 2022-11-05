@@ -50,11 +50,10 @@ const PageOne = () => (
     <video
       className="video-element"
       poster="/mainPic.png"
-      autoPlay
+      autoplay
       loop
       muted
       playsinline
-      z-index="10"
     >
       <source src="/mainVideo.mp4" type="video/mp4" />
       <source
