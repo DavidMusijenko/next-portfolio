@@ -54,13 +54,13 @@ const PageOne = () => (
         loop
         muted
         playsinline
-        src="/mainVideo.mp4"
-        type="video/mp4"
+        controls
       >
+        <source src="/mainVideo.mp4" type="video/mp4" />
         <source
           srcset="/mobile.mp4"
           type="video/mp4"
-          media="(max-width: 812px)"
+          media="(max-width: 440px)"
         ></source>
       </video>
     </picture>
