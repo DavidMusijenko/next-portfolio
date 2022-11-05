@@ -53,10 +53,16 @@ const PageOne = () => (
       autoPlay
       loop
       muted
+      playsinline
       data-keepplaying
       z-index="10"
     >
       <source src="/mainVideo.mp4" type="video/mp4" />
+      <source
+        src="/mobile.mp4"
+        type="video/mp4"
+        media="all and (max-width: 480px)"
+      ></source>
     </video>
   </div>
 );
