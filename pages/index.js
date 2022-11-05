@@ -54,7 +54,6 @@ const PageOne = () => (
       loop
       muted
       playsinline
-      data-keepplaying
       z-index="10"
     >
       <source src="/mainVideo.mp4" type="video/mp4" />
