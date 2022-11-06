@@ -157,7 +157,7 @@ const MobileButton = () => (
   <div className="collapse-mobile">
     <div className="collapse">
       <input type="checkbox" className="peer" />
-      <div className="collapse-title bg-white text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+      <div className="collapse-title bg-white text-[#CA67FB] text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
         How good are you?
       </div>
       <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
