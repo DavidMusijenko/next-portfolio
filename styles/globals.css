@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Gilmer"; /*Can be any text*/
-  src: local("GilmerMedium"),
-    url("/asset/Gilmer/GilmerMedium.otf") format("truetype");
+  src: local("GilmerMedium"), url("/Gilmer/GilmerMedium.otf") format("truetype");
 }
 
 html,
