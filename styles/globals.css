@@ -1,7 +1,7 @@
 @font-face {
-  font-family: "Medium"; /*Can be any text*/
+  font-family: "Gilmer"; /*Can be any text*/
   src: local("GilmerMedium"),
-    url("/style/Gilmer-Font/GilmerMedium.otf") format("truetype");
+    url("/asset/Gilmer/GilmerMedium.otf") format("truetype");
 }
 
 html,
