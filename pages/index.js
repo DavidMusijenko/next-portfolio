@@ -157,7 +157,7 @@ const MobileButton = () => (
   <div className="collapse-mobile">
     <div className="collapse">
       <input type="checkbox" className="peer" />
-      <div className="collapse-title bg-white text-[#CA67FB] text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
+      <div className="collapse-title bg-white text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
         How good are you?
       </div>
       <div className="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content">
@@ -201,8 +201,8 @@ const WhatIs = () => (
         Say you have an Excel table and you want to make an InDesign document
         out of it. You can write a script that will do it for you. This script
         is a data pipeline. It takes data from one place and puts it in another
-        place. <br /> <br /> If this sounds oddly specific, it's because I have
-        done it before.
+        place. <br /> <br /> If this sounds oddly specific, it&apos;s because I
+        have done it before.
       </p>
     </div>
   </div>
@@ -291,7 +291,6 @@ class App extends React.Component {
       <div className="App">
         <Head>
           <title>David Musijenko Portfolio</title>
-          <link href="/static/styles.css" rel="stylesheet" />
         </Head>
         <ReactFullpage
           licenseKey={"gplv3-license"}
