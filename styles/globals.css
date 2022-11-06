@@ -143,6 +143,7 @@ a {
   font-size: 7em;
   text-shadow: 5px 5px #ca67fb;
   line-height: 85%;
+  color: white;
 }
 
 .lets {
@@ -216,15 +217,18 @@ a {
   }
   .lets {
     font-size: 3rem;
+    color: white;
   }
   .iphone-one {
     top: 20%;
   }
   .email {
     font-size: 1rem;
+    color: white;
   }
   .vercel {
     font-size: 1rem;
+    color: white;
   }
   .collapse {
     width: 100%;
