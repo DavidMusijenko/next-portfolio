@@ -25,21 +25,11 @@ a {
   box-sizing: border-box;
 }
 
-.section {
-}
-
 .video-element {
   width: 100%;
   height: 100%;
   object-fit: cover;
   z-index: 10;
-}
-
-.navbar {
-  position: absolute;
-  top: 0px;
-  z-index: 10;
-  left: 120px;
 }
 
 .shop-one {
@@ -55,6 +45,24 @@ a {
 }
 
 .collapse {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  right: 0;
+  width: 400px;
+  font-size: 1.5rem;
+}
+
+.collapse-mobile {
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  left: 0;
+  width: 400px;
+  font-size: 1.5rem;
+}
+
+.mobile-button {
   position: absolute;
   z-index: 10;
   bottom: 0;
@@ -82,17 +90,33 @@ a {
   color: black;
 }
 .iphone-one {
-  position: relative;
+  position: absolute;
   float: right;
+  top: 0;
   right: 1%;
   z-index: 0;
-  height: 20%;
-  width: auto;
+  object-fit: scale-down;
+  height: 100%;
+}
+
+.web3 {
+  position: absolute;
+  left: 50%;
+  top: 60%;
+  transform: translate(-50%, -50%);
+  font-size: 4rem;
+  text-align: end;
+  font-family: Gilmer;
+  z-index: 3;
+  background-color: white;
+  opacity: 0.9;
+  color: #ca67fb;
+  padding: 20px;
 }
 
 .mobile {
   position: absolute;
-  left: 30%;
+  left: 40%;
   top: 50%;
   transform: translate(-50%, -50%);
   font-size: 4rem;
@@ -100,7 +124,7 @@ a {
   font-family: Gilmer;
   z-index: 3;
   background-color: white;
-  opacity: 0.8;
+  opacity: 0.9;
   color: #ca67fb;
   padding: 20px;
 }
@@ -113,10 +137,13 @@ a {
 .misc-text {
   position: absolute;
   left: 50%;
-  top: 10%;
+  top: 75%;
   transform: translate(-50%, -50%);
   font-size: 3.5rem;
   z-index: 3;
+  font-size: 7em;
+  text-shadow: 5px 5px #ca67fb;
+  line-height: 85%;
 }
 
 .lets {
@@ -153,32 +180,38 @@ a {
   }
 }
 
-@media only screen and (max-device-width: 812px) {
+@media (max-device-width: 1400px) {
+  .clean-text {
+    font-size: 2.5rem;
+    margin-top: 30px;
+  }
+  .misc-text {
+    top: 70%;
+  }
+}
+
+@media (max-device-width: 812px) {
   .icons {
   }
   .clean-text {
     font-size: 2rem;
-    margin-top: 50px;
+    margin-top: 70px;
   }
   .shop-one {
-    position: relative;
-    width: 390px;
-    overflow-y: hidden;
-    height: 100%;
   }
+
+  .web3 {
+    font-size: 3rem;
+  }
+
   .mobile {
     font-size: 3rem;
   }
 
   .misc {
-    width: 390px;
-    position: relative;
-    overflow-y: hidden;
-    height: 100%;
   }
   .misc-text {
-    padding-top: 900px;
-    font-size: 4em;
+    font-size: 5em;
     text-shadow: 5px 5px #ca67fb;
     line-height: 85%;
   }
@@ -186,13 +219,7 @@ a {
     font-size: 3rem;
   }
   .iphone-one {
-    position: relative;
-    left: 0%;
-    top: 0%;
-    transform: translate(-0%, -0%);
-    overflow-y: hidden;
-    width: 390px;
-    height: 100%;
+    top: 20%;
   }
   .email {
     font-size: 1rem;
@@ -202,5 +229,25 @@ a {
   }
   .collapse {
     width: 100%;
+  }
+  .collapse-mobile {
+    width: 100%;
+  }
+}
+
+@media (max-device-width: 440px) {
+  .clean-text {
+    font-size: 1.5rem;
+    margin-top: 85px;
+  }
+  .web3 {
+    font-size: 3rem;
+    top: 48%;
+  }
+  .icons {
+    display: none;
+  }
+  .iphone-one {
+    top: 0%;
   }
 }
